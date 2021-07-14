@@ -1,0 +1,807 @@
+@font-face {
+    font-family: "Rocket Script";
+    src: url("font/RocketScript.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Theano Didot";
+    src: url("font/TheanoDidot-Regular.ttf") format("ttf");
+}
+
+body {
+    font-family: "Theano Didot", sans-serif;
+}
+
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    padding-bottom: 60px;
+}
+
+/*HEADER*/
+
+.markowski{
+    width: 500px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+    z-index: -6;
+}
+
+.rea{
+    width: 300px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -55px;
+    z-index: -10;
+}
+
+/*SECTION1*/
+.blockSection{
+    margin-top: 40px;
+}
+
+h1{
+    color: #54341d;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+
+.boutique{
+    height: 300px;
+}
+
+h4{
+    padding-bottom: 20px;
+}
+
+.section1{
+    text-align: justify;
+}
+
+.btn-secondary{
+    background-color: #54341d;
+    border-color: #54341d;
+    border-radius: 10px 10px 10px 10px;
+}
+
+a.btn.btn-secondary:hover{
+    background-color: #54341d;
+    border-color: #54341d;
+}
+
+/*SECTION2*/
+.blockSection2{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+h2{
+    color: #54341d;
+    text-align: center;
+}
+
+form{
+    margin-top: 40px;
+}
+
+input[type="submit"]{
+    border-color: #54341d;
+    color: #54341d;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+}
+
+/*.envoyer{
+    position: absolute;
+    left: 180px;
+}*/
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+}
+
+/*.chaussures{
+    height:300px;
+    margin-top: 60px;
+}*/
+
+/*FOOTER*/
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #54341d;
+    color: white;
+    padding-top: 20px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*.mentions{
+    width: 35%;
+}*/
+
+.mentions,.fa{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.mentions:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*CONTACT*/
+.message{
+    margin-top: 40px;
+    position: absolute;
+    bottom: 100px;
+}
+
+/*MENTIONS LEGALES*/
+
+.mentionslegales{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+}
+
+.mentionslegales a{
+    color: black;
+}
+
+.mentionslegales a:hover{
+    color: #54341d;
+    text-decoration: none;
+}
+
+/*TRES PETITS ECRANS*/
+@media all and (max-width:400px){
+    /*HEADER*/
+    .markowski{
+        width: 300px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -5px;
+        z-index: -6;
+    }
+
+    /*SECTION1*/
+    .redirection{
+        width:200px;
+        display: block;
+        margin: auto;
+    }
+
+    .boutique{
+        width:300px;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    /*SECTION2*/
+    .chaussures{
+        width:300px;
+        height:150px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    input[type=submit]
+    {
+        display: block;
+        position: relative;
+        margin-left: 85%;
+    }
+
+    .logo{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        margin-top: 40px;
+        width: 150px;
+        height: 150px;
+    }
+
+
+    /*FOOTER*/
+    /*.copyright, .reseaux {
+        text-align: center;
+    }
+
+    .mentions {
+        text-align: center;
+    }
+
+    .copyright{
+        margin-left: 45px;
+        margin-bottom: -1px;
+    }*/
+
+    .footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 130px;
+        background-color: #54341d;
+        color: white;
+        padding-top: 20px;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .copyright{
+        margin-bottom: 0px;
+    }
+
+    /*CONTACT*/
+    .message{
+        margin-top: 40px;
+        position: absolute;
+        bottom: 300px;
+    }
+}
+
+@media all and (min-width: 400px) and (max-width: 576px){
+    /*HEADER*/
+    .markowski{
+        width: 300px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -5px;
+        z-index: -6;
+    }
+
+    /*SECTION1*/
+    .redirection{
+        width:200px;
+        display: block;
+        margin: auto;
+    }
+
+    .boutique{
+        width:300px;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    /*SECTION2*/
+    .chaussures{
+        width:300px;
+        height:150px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    input[type=submit]
+    {
+        display: block;
+        position: relative;
+        margin-left: 80%;
+    }
+
+    .logo{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        margin-top: 40px;
+        width: 210px;
+        height: 210px;
+    }
+
+
+    /*FOOTER*/
+    /*.copyright, .reseaux {
+        text-align: center;
+    }
+
+    .mentions {
+        text-align: center;
+    }*/
+
+    .copyright{
+        margin-bottom: 0px;
+    }
+
+    .footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 130px;
+        background-color: #54341d;
+        color: white;
+        padding-top: 20px;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*CONTACT*/
+    .message{
+        margin-top: 40px;
+        position: absolute;
+        bottom: 370px;
+    }
+}
+
+/*SMARTPHONES*/
+@media all and (min-width: 576px) and (max-width: 768px) {
+    /*SECTION1*/
+    .boutique{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .redirection{
+        width:200px;
+        display: block;
+        margin: auto;
+    }
+
+    /*.chaussures{
+        margin-bottom: 60px;
+    }*/
+
+    /*SECTION2*/
+    input[type=submit]
+    {
+        display: block;
+        position: relative;
+        margin-left: 120%;
+    }
+
+    .logo{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        margin-top: 40px;
+        width: 200px;
+        height: 200px;
+    }
+
+    /*FOOTER*/
+    .copyright{
+        margin-bottom: 0px;
+    }
+
+    .footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 130px;
+        background-color: #54341d;
+        color: white;
+        padding-top: 20px;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*.copyright, .reseaux {
+        text-align: center;
+    }
+
+    .mentions {
+        text-align: center;
+    }*/
+
+    .copyright{
+        margin-bottom: 0px;
+    }
+
+    /*CONTACT*/
+    .message{
+        margin-top: 40px;
+        position: absolute;
+        bottom: 370px;
+        left: 100px;
+    }
+}
+
+/*SMARTPHONES ET TABLETTES*/
+@media all and (min-width:768px) and (max-width:992px) {
+    /*SECTION1*/
+    .redirection{
+        position: absolute;
+        left:100px;
+    }
+
+    .boutique{
+        width:550px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*SECTION2*/
+    /*.envoyer{
+        position: absolute;
+        left: 60px;
+    }*/
+
+    input[type=submit] {
+        display: block;
+        position: relative;
+        margin-left: 60%;
+    }
+
+    /*.chaussures{
+        width:550px;
+        height:250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }*/
+
+    /*FOOTER*/
+    .footer{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        height: 60px;
+        background-color: #54341d;
+        color: white;
+        margin-top: 60px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .copyright{
+        padding-left: 80px;
+    }
+
+    .reseaux{
+        padding-right: 80px;
+    }
+
+
+    /*.mentions{
+        margin-right: -20px;
+    }*/
+
+    /*CONTACT*/
+    .message{
+        margin-top: 40px;
+        position: absolute;
+        bottom: 100px;
+        left: 50px;
+    }
+
+}
+
+@media all and (min-width: 992px) and (max-width: 1200px){
+    /*SECTION1*/
+    .redirection{
+        position: absolute;
+        left:120px;
+    }
+
+    /*SECTION2*/
+    .chaussures {
+        margin-bottom: 100px;
+    }
+
+    .envoyer{
+        position: absolute;
+        left: 150px;
+    }
+
+    /*FOOTER*/
+    .footer{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        height: 60px;
+        background-color: #54341d;
+        color: white;
+        padding-top: 20px;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .copyright{
+        padding-left: 80px;
+    }
+
+    .reseaux{
+        padding-right: 80px;
+    }
+
+    /*.copyright {
+        margin-left: 70px;
+    }*/
+
+    /*CONTACT*/
+    .message{
+        margin-top: 40px;
+        position: absolute;
+        bottom: 100px;
+        right:20%;
+    }
+}
+
+@media all and (min-width: 1200px) and (max-width: 1440px){
+    /*SECTION1*/
+    .redirection{
+        position: absolute;
+        left:180px;
+    }
+
+    /*SECTION 2*/
+    .envoyer{
+        position: absolute;
+        left: 180px;
+    }
+
+    /*FOOTER*/
+    .footer{
+        position: absolute;
+        bottom: 0;
+        height: 60px;
+        width:100%;
+        background-color: #54341d;
+        color: white;
+        margin-top: 60px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .copyright{
+        padding-left: 100px;
+    }
+
+    .reseaux{
+        padding-right: 100px;
+    }
+
+    /*.copyright {
+        margin-left: 100px;
+    }
+
+    .mentions{
+        margin-right: 200px;
+    }*/
+
+    /*CONTACT*/
+    .message{
+        margin-top: 40px;
+        position: absolute;
+        bottom: 100px;
+        right:15%;
+    }
+
+}
+
+@media all and (min-width: 1440px) and (max-width: 1700px){
+    /*SECTION1*/
+    .redirection{
+        position: absolute;
+        left:180px;
+    }
+
+    /*SECTION 2*/
+    .envoyer{
+        position: absolute;
+        left: 180px;
+    }
+
+    /*FOOTER*/
+    .footer{
+        position: absolute;
+        bottom: 0;
+        height: 60px;
+        width:100%;
+        background-color: #54341d;
+        color: white;
+        margin-top: 60px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .copyright{
+        padding-left: 250px;
+    }
+
+    .reseaux{
+        padding-right: 250px;
+    }
+
+    /*.copyright {
+        margin-left: 30%;
+    }
+
+    .mentions{
+        margin-left: -15%;
+    }
+
+    .reseaux{
+        margin-left: -5%;
+    }*/
+
+    /*CONTACT*/
+    .message{
+        margin-top: 40px;
+        position: absolute;
+        bottom: 100px;
+        left:250px;
+    }
+}
+
+@media all and (min-width: 1700px) and (max-width: 1950px){
+    /*SECTION1*/
+    .redirection{
+        position: absolute;
+        left:180px;
+    }
+
+    /*SECTION 2*/
+    .envoyer{
+        position: absolute;
+        left: 180px;
+    }
+
+    /*FOOTER*/
+    .footer{
+        position: absolute;
+        bottom: 0;
+        height: 60px;
+        width:100%;
+        background-color: #54341d;
+        color: white;
+        margin-top: 60px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .copyright{
+        padding-left: 250px;
+    }
+
+    .reseaux{
+        padding-right: 250px;
+    }
+
+    /*.copyright {
+        margin-left: 30%;
+    }
+
+    .mentions{
+        margin-left: -15%;
+    }
+
+    .reseaux{
+        margin-left: -5%;
+    }*/
+
+    /*CONTACT*/
+    .message{
+        margin-top: 40px;
+        position: absolute;
+        bottom: 100px;
+        left:350px;
+    }
+}
+
+@media all and (min-width: 1950px){
+    /*SECTION1*/
+    .redirection{
+        position: absolute;
+        left:180px;
+    }
+
+    /*SECTION 2*/
+    .envoyer{
+        position: absolute;
+        left: 180px;
+    }
+
+    /*FOOTER*/
+    .footer{
+        position: absolute;
+        bottom: 0;
+        height: 60px;
+        width:100%;
+        background-color: #54341d;
+        color: white;
+        margin-top: 60px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .copyright{
+        padding-left: 250px;
+    }
+
+    .reseaux{
+        padding-right: 250px;
+    }
+
+    /*.copyright {
+        margin-left: 30%;
+    }
+
+    .mentions{
+        margin-left: -15%;
+    }
+
+    .reseaux{
+        margin-left: -5%;
+    }*/
+
+    /*CONTACT*/
+    .message{
+        margin-top: 40px;
+        position: absolute;
+        bottom: 100px;
+        left:500px;
+    }
+}
+
+/*format landscape*/
+@media (min-width:576px ) and (orientation: landscape){
+    .redirection{
+        width:200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width:576px ) and (orientation: landscape){
+
+    /*SECTION 2*/
+    .envoyer{
+        position: absolute;
+        left: 0px;
+    }
+
+    /*FOOTER*/
+    /*.copyright {
+        margin-left: 70px;
+    }*/
+}
