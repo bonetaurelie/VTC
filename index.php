@@ -124,7 +124,7 @@ if(isset($_GET['erreur'])){?>
     <!--FOOTER-->
     <footer>
         <div itemscope itemtype="http://schema.org/WPFooter" class="container-fluid footer">
-            <div><p itemprop="copyrightHolder" class="copyright">Copyright <i class="fa fa-copyright" aria-hidden="true"></i>ALBIN VTC 2021</p></div>
+            <div><p itemprop="copyrightHolder" class="copyright">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> ALBIN VTC 2021</p></div>
             <div><a itemprop="url" class="mentions" href="mentions.php" target="_blank">Mentions légales</a></div>
         </div>
     </footer>
