@@ -52,15 +52,14 @@ if(isset($_GET['erreur'])){?>
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title>Markowski - Chaussures en cuir Paris</title>
+    <title>ALBIN VTC</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords" content="boutique chaussures paris, magasin chaussures de qualité, chaussures de qualité, chaussures en cuir, chaussures cousu Goodyear, bon rapport qualité prix, chaussures de luxe, chaussures luxe hommes, souliers, souliers hommes, bottes et bottines hommes, chaussures derby hommes, mocassin hommes, chaussures richelieu homme, chaussures daim hommes">
-    <meta name="description" content="Markowski chausseur boutique en ligne de chaussures haut de gamme de qualité pour hommes. Fabrication et vente en ligne de chaussure haut de gamme cousu Goodyear, bon rapport qualité prix, richelieu hommes, derby hommes, mocassin hommes, boots et bottines hommes et femmes, accessoires, chaussures de ville, chaussures de bureau, chaussures casual.">
+    <meta name="description" content="ALBIN VTC se situe dans le vaucluse à Valreas et propose ses services aussi dans la Drôme">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
 </head>
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -68,12 +67,12 @@ if(isset($_GET['erreur'])){?>
         
         <!--HEADER-->
         <div itemscope itemtype="http://schema.org/WPHeader" class="row">
-            <img itemprop="description" src="img/markowski3.png" alt="markowski" title="markowski" class="markowski">
+            <img itemprop="description" src="img/logo_large.png" alt="Albin VTC" title="Albin VTC" class="Albin VTC">
         </div>
 
         <!--SECTION1-->
         <section>
-            <h1 itemprop="name">Markowski CHANGE ?</h1>
+            <h1 itemprop="name">ALBIN VTC</h1>
             <div itemscope itemtype="http://schema.org/Thing" class="blockSection row align-items-center">
                 <img itemprop="image" src="img/MarkowskiBoutique.jpg" alt="photo de la boutique" title="boutique" class="boutique col-md-6">
                 <div class="presentation col-md-6">
