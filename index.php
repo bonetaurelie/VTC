@@ -1,6 +1,6 @@
 <?php
 if(isset($_GET['champ'])){?>
-    <div class="corps message col-lg-9 col-md-9 col-sm-9 col-xs-11">
+    <div class="corps message col-lg-5 col-md-5 col-sm-5 col-xs-11">
         <?php echo "Les champs avec une astérisque doivent être renseignés";?>
     </div>
     <?php
@@ -9,7 +9,7 @@ if(isset($_GET['champ'])){?>
 
 <?php
 if(isset($_GET['adresse'])){?>
-    <div class="corps message col-lg-9 col-md-9 col-sm-9 col-xs-11">
+    <div class="corps message col-lg-5 col-md-5 col-sm-5 col-xs-11">
         <?php echo "L'adresse n'est pas valide";?>
     </div>
     <?php
@@ -18,7 +18,7 @@ if(isset($_GET['adresse'])){?>
 
 <?php
 if(isset($_GET['entete'])){?>
-    <div class="corps message col-lg-9 col-md-9 col-sm-9 col-xs-11">
+    <div class="corps message col-lg-5 col-md-5 col-sm-5 col-xs-11">
         <?php echo 'En-têtes interdites dans les champs du formulaire';?>
     </div>
     <?php
@@ -27,10 +27,10 @@ if(isset($_GET['entete'])){?>
 
 <?php
 if(isset($_GET['mail'])){?>
-    <div class="corps message col-lg-9 col-md-9 col-sm-9 col-xs-11">
+    <div class="corps message col-lg-5 col-md-5 col-sm-5 col-xs-11">
         <?php
         echo("<script>alert('E-mail envoyé avec succès, nous vous répondrons dans les plus brefs délais')</script>");
-        echo("<script>window.location = 'http://http://markowski-chausseur-paris.com';</script>");
+        echo("<script>window.location = 'https://www.albin-vtc.com';</script>");
 
         ?>
     </div>
@@ -40,7 +40,7 @@ if(isset($_GET['mail'])){?>
 
 <?php
 if(isset($_GET['erreur'])){?>
-    <div class="corps message col-lg-9 col-md-9 col-sm-9 col-xs-11">
+    <div class="corps message col-lg-5 col-md-5 col-sm-5 col-xs-11">
         <?php  echo 'Erreur d\'envoi de l\'e-mail';?>
     </div>
     <?php

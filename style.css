@@ -129,9 +129,9 @@ a.mentions:hover{
 
 /*CONTACT*/
 .message{
-    margin-top: 40px;
     position: absolute;
     bottom: 100px;
+    left: 54%;
 }
 
 /*MENTIONS LEGALES*/
