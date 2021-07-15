@@ -73,8 +73,8 @@ if(isset($_GET['erreur'])){?>
         </header>
 
         <!--SECTION2-->
-        <section>
-            <div class="blockSection2 row align-items-center">
+        
+            <section class="blockSection2 row align-items-center">
                 <div itemscope itemtype="http://schema.org/ContactPage" class="form-mobil">
                     <h2 itemprop="name">Nous contacter</h2>
                     <form class="form-horizontal" action="send.php" method="post">
@@ -116,7 +116,6 @@ if(isset($_GET['erreur'])){?>
                     </form>
 
                 </div>
-            </div>
         </section>
     </div>     
 

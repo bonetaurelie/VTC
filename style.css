@@ -465,6 +465,11 @@ a.mentions:hover{
 @media all and (min-width: 1200px) and (max-width: 1440px){
 
     /*SECTION 2*/
+
+    .blockSection2{
+        margin-left: 150px;
+    }
+
     .envoyer{
         position: absolute;
         left: 80px;
