@@ -50,12 +50,12 @@ if (isset($_POST['envoyer'])) {
     } /* Si aucun problème et aucun cookie créé, on construit le message et on envoie l'e-mail */
     elseif (!isset($_COOKIE['sent'])) {
         /* Destinataire (votre adresse e-mail) */
-        $to = 'arege.markowski@gmail.com';
+        $to = 'contact@aureliebonet.fr';
 
         /* Construction du message */
 
         $msg = 'Bonjour,<br>';
-        $msg .= 'Ce mail est envoyé depuis www.markowski.fr par ' . $nom . ' ' . $tel . "<br>";
+        $msg .= 'Ce mail est envoyé depuis www.albin-vtc.com par ' . $nom . ' ' . $tel . "<br>";
         $msg .= 'Voici le message qui vous est adressé :<br>';
         $msg .= '<br>';
         $msg .= $message . "<br>";
