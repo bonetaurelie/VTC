@@ -13,12 +13,12 @@
 
 </head>
 <body itemscope itemtype="http://schema.org/WebPage">
-    <div class="container corps">
+    <div class="container">
 
         <!--HEADER-->
-        <div itemscope itemtype="http://schema.org/WPHeader" class="row">
-            <img itemprop="description" src="img/logo_small.png" alt="albin vtc" title="albin vtc" class="albin">
-        </div>
+        <header itemscope itemtype="http://schema.org/WPHeader" class="row mentionsbis">
+            <img itemprop="description" src="img/logo_small.png" alt="albin vtc" title="albin vtc" class="albin2">
+        </header>
 
         <!-- <div class="row">
             <img itemprop="description" src="img/rea.png" alt="réalisateur de chaussures de qualité" title="réalisateur de chaussures de qualité" class="rea">
@@ -53,9 +53,8 @@
     <!--FOOTER-->
     <footer>
         <div itemscope itemtype="http://schema.org/WPFooter" class="container-fluid footer">
-            <div><p itemprop="copyrightHolder" class="copyright">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> Markowski 2017</p></div>
+            <div><p itemprop="copyrightHolder" class="copyright">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> ALBIN VTC 2021</p></div>
             <div><a itemprop="url" class="mentions" href="mentions.php" target="_blank">Mentions légales</a></div>
-            <div><p itemprop="description" class="reseaux">Suivez-nous sur <a href="https://www.facebook.com/princejorgeparis/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a> et <a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></i></a></p></div>
         </div>
     </footer>
 
