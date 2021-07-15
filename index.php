@@ -54,7 +54,7 @@ if(isset($_GET['erreur'])){?>
     <meta charset="utf-8">
     <title>ALBIN VTC</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="boutique chaussures paris, magasin chaussures de qualité, chaussures de qualité, chaussures en cuir, chaussures cousu Goodyear, bon rapport qualité prix, chaussures de luxe, chaussures luxe hommes, souliers, souliers hommes, bottes et bottines hommes, chaussures derby hommes, mocassin hommes, chaussures richelieu homme, chaussures daim hommes">
+    <meta name="keywords" content="">
     <meta name="description" content="ALBIN VTC se situe dans le vaucluse à Valreas et propose ses services aussi dans la Drôme">
 
     <!-- Bootstrap CSS -->
@@ -67,18 +67,12 @@ if(isset($_GET['erreur'])){?>
         
         <!--HEADER-->
         <header itemscope itemtype="http://schema.org/WPHeader" class="row">
-            <img itemprop="description" src="img/logo_large.png" alt="Albin VTC" title="Albin VTC" class="Albin VTC">
+            <img itemprop="description" src="img/logo_small.png" alt="Albin VTC" title="Albin VTC" class="Albin VTC">
         </header>
 
         <!--SECTION1-->
         <section>
-            <h1 itemprop="name">ALBIN VTC</h1>
-            <div itemscope itemtype="http://schema.org/Thing" class="blockSection row align-items-center">
-                <!--<img itemprop="image" src="img/MarkowskiBoutique.jpg" alt="photo de la boutique" title="boutique" class="boutique col-md-6">-->
-                <div class="presentation col-md-6">
-                    <h4 class="text-center">24H/24 & 7J/7</h4>
-                </div>
-            </div>
+            <h1 itemprop="name">24H/24 & 7J/7</h1>
         </section>
 
 
