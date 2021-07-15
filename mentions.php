@@ -40,6 +40,8 @@
 
         <!--MENTIONS LEGALES-->
         <h1 itemprop="name">Mentions légales</h1>
+
+        <p>TEST</p>
         
         <div itemscope itemtype="http://schema.org/Thing" class="mentionslegales">
             <p itemprop="description"><span><b>Editeur du Site : </b></span><br>
