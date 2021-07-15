@@ -24,6 +24,7 @@ body{
 .corps{
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 /*HEADER*/
@@ -35,14 +36,14 @@ header{
     margin-right: auto;
     margin-top: -5px;
     z-index: -6;
+    width: 50%;
 }
 
 .albin{
-    width: 500px;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 200px;
+    /*width: 50%;*/
+    /*height: 200px;*/
+    margin-top: 150px;
+    margin-left: 50px;
 }
 h1{
     color: #0A1256;
@@ -56,50 +57,12 @@ h3{
     text-align: center;
 }
 
-/*.rea{
-    width: 300px;
-    height: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -55px;
-    z-index: -10;
-}*/
-
-/*SECTION1*/
-.blockSection{
-    margin-top: 40px;
-}
-
-
-
-/*.boutique{
-    height: 300px;
-}
-
-h4{
-    padding-bottom: 20px;
-}*/
-
-.section1{
-    text-align: justify;
-    
-}
-
-/*.btn-secondary{
-    background-color: #54341d;
-    border-color: #54341d;
-    border-radius: 10px 10px 10px 10px;
-}
-
-a.btn.btn-secondary:hover{
-    background-color: #54341d;
-    border-color: #54341d;
-}*/
-
 /*SECTION2*/
 .blockSection2{
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 60px;
+    margin-left: 100px;
+    
 }
 
 h2{
@@ -115,13 +78,13 @@ input[type="submit"]{
     border-color: #0A1256;
     color: #0A1256;
     border-radius: 10px 10px 10px 10px;
-    position: relative;
 }
 
-/*.envoyer{
+.envoyer{
     position: absolute;
-    left: 180px;
-}*/
+    left: 20px;
+    width: 200px;
+}
 
 /*.logo{
     margin-left: auto;
@@ -465,10 +428,11 @@ a.mentions:hover{
     }
 
     /*SECTION2*/
-    /*.envoyer{
+    .envoyer{
         position: absolute;
-        left: 60px;
-    }*/
+        left: 20px;
+        width: 200px;
+    }
 
     input[type=submit] {
         display: block;
@@ -537,7 +501,8 @@ a.mentions:hover{
 
     .envoyer{
         position: absolute;
-        left: 150px;
+        left: 30px;
+        width: 200px;
     }
 
     /*FOOTER*/
@@ -586,7 +551,8 @@ a.mentions:hover{
     /*SECTION 2*/
     .envoyer{
         position: absolute;
-        left: 180px;
+        left: 80px;
+        width: 200px;
     }
 
     /*FOOTER*/
@@ -640,7 +606,8 @@ a.mentions:hover{
     /*SECTION 2*/
     .envoyer{
         position: absolute;
-        left: 180px;
+        left: 80px;
+        width: 200px;
     }
 
     /*FOOTER*/
@@ -697,7 +664,8 @@ a.mentions:hover{
     /*SECTION 2*/
     .envoyer{
         position: absolute;
-        left: 180px;
+        left: 80px;
+        width: 200px;
     }
 
     /*FOOTER*/
@@ -754,7 +722,8 @@ a.mentions:hover{
     /*SECTION 2*/
     .envoyer{
         position: absolute;
-        left: 180px;
+        left: 80px;
+        width: 200px;
     }
 
     /*FOOTER*/
@@ -818,6 +787,7 @@ a.mentions:hover{
     .envoyer{
         position: absolute;
         left: 0px;
+        width: 200px;
     }
 
     /*FOOTER*/

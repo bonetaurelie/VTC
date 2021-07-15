@@ -75,41 +75,41 @@ if(isset($_GET['erreur'])){?>
         <!--SECTION2-->
         <section>
             <div class="blockSection2 row align-items-center">
-                <div itemscope itemtype="http://schema.org/ContactPage" class="col-md-12">
+                <div itemscope itemtype="http://schema.org/ContactPage">
                     <h2 itemprop="name">Nous contacter</h2>
                     <form class="form-horizontal" action="send.php" method="post">
                         <div class="form-group row">
                             <label for="nom" class="col-sm-2 col-md-3 col-form-label">Nom*</label>
-                            <div class="col-sm-10 col-md-8 ">
+                            <div class="col-sm-10 col-md-9 ">
                                 <input type="text" name="nom" class="form-control" id="nom" placeholder="Nom">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="email" class="col-sm-2 col-md-3 col-form-label">Email*</label>
-                            <div class="col-sm-10 col-md-8">
+                            <div class="col-sm-10 col-md-9">
                                 <input type="email" name="email" class="form-control" id="email" placeholder="Email">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="telephone" class="col-sm-2 col-md-3 col-form-label">Téléphone</label>
-                            <div class="col-sm-10 col-md-8">
+                            <div class="col-sm-10 col-md-9">
                                 <input type="tel" name="telephone" class="form-control" id="telephone" placeholder="Téléphone">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="objet" class="col-sm-2 col-md-3 col-form-label">Objet*</label>
-                            <div class="col-sm-10 col-md-8">
+                            <div class="col-sm-10 col-md-9">
                                 <input type="text" name="objet" class="form-control" id="objet" placeholder="Objet">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="message" class="col-sm-2 col-md-3 col-form-label">Message*</label>
-                            <div class="col-sm-10 col-md-8">
+                            <div class="col-sm-10 col-md-9">
                                 <textarea name="message" class="form-control" id="message" placeholder="Message"></textarea>
                             </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-lg-4 col-lg-offset-3 col-md-6 col-sm-4 col-5">
+                            <div class="col-lg-4 col-lg-offset-3 col-md-12 col-sm-4 col-5">
                                 <input type="submit" class="form-control center-block envoyer" name="envoyer" value="Envoyer" />
                             </div>
                         </div>
