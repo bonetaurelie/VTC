@@ -119,7 +119,7 @@ if(isset($_GET['erreur'])){?>
                         </div>
                     </form>
 
-                </div>-->
+                </div>
             </div>
         </section>
     </div>     
