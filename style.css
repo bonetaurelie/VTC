@@ -21,15 +21,39 @@ body{
     padding-bottom: 60px;
 }
 
+.corps{
+    display: flex;
+    flex-direction: row;
+}
+
 /*HEADER*/
+
+header{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+    z-index: -6;
+}
 
 .albin{
     width: 500px;
     height: 200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -5px;
-    z-index: -6;
+    margin-top: 200px;
+}
+h1{
+    color: #0A1256;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+h3{
+    color: #0A1256;
+    text-align: center;
 }
 
 /*.rea{
@@ -46,12 +70,7 @@ body{
     margin-top: 40px;
 }
 
-h1{
-    color: #0A1256;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 75px;
-}
+
 
 /*.boutique{
     height: 300px;

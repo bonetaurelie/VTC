@@ -67,14 +67,10 @@ if(isset($_GET['erreur'])){?>
         
         <!--HEADER-->
         <header itemscope itemtype="http://schema.org/WPHeader" class="row">
-            <img itemprop="description" src="img/logo_small.png" alt="Albin VTC" title="Albin VTC" class="Albin">
-        </header>
-
-        <!--SECTION1-->
-        <section>
+            <img itemprop="description" src="img/logo_small.png" alt="Albin VTC" title="Albin VTC" class="albin">
             <h1 itemprop="name">24H/24 & 7J/7</h1>
-        </section>
-
+            <h3>Tel: 07.61.44.84.61</h3>
+        </header>
 
         <!--SECTION2-->
         <section>
