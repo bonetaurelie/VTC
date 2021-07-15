@@ -66,38 +66,17 @@ if(isset($_GET['erreur'])){?>
     <div class="container corps">
         
         <!--HEADER-->
-        <div itemscope itemtype="http://schema.org/WPHeader" class="row">
+        <header itemscope itemtype="http://schema.org/WPHeader" class="row">
             <img itemprop="description" src="img/logo_large.png" alt="Albin VTC" title="Albin VTC" class="Albin VTC">
-        </div>
+        </header>
 
         <!--SECTION1-->
         <section>
             <h1 itemprop="name">ALBIN VTC</h1>
             <div itemscope itemtype="http://schema.org/Thing" class="blockSection row align-items-center">
-                <img itemprop="image" src="img/MarkowskiBoutique.jpg" alt="photo de la boutique" title="boutique" class="boutique col-md-6">
+                <!--<img itemprop="image" src="img/MarkowskiBoutique.jpg" alt="photo de la boutique" title="boutique" class="boutique col-md-6">-->
                 <div class="presentation col-md-6">
-                    <h4 class="text-center">Nous avons su évoluer<br>
-                    Et ne pas rester sur les acquis vieillissants Markowski</h4>
-                    <p itemprop="description" class="section1 text-center">
-                        Nous avons créé Prince-Jorge en 2012/2013<br>
-                        En toute confidentialité au côté de Markowski<br><br>
-
-                        Nous avons laissé le temps à notre clientèle<br>
-                        D’apprécier ce nouveau concept/positionnement<br>
-                        Et surtout de créer une nouvelle dynamique<br>
-                        En améliorant considérablement la chaussure Markowski en soulier Prince-Jorge …<br><br>
-
-                        ...c'est une forme de renaissance et surtout et toujours dans la qualité.<br><br>
-
-                        Nous avons commencé l'aventure Prince-Jorge en proposant 3 modèles en mai 2013<br>
-                        Aujourd’hui une large collection de souliers avec différents types de montage<br>
-                        Et deux formes majeures vous sont proposées !<br><br>
-
-                        Et d'autres projets de souliers Prince-Jorge sont à venir<br>
-                        Pour tout les amoureux de beaux souliers à prix abordable et juste<br>
-                        À suivre...
-                    </p>
-                    <a itemprop="url" href="http://www.prince-jorge.com" target="_blank" class="btn btn-secondary redirection" role="button">vers Prince-Jorge  <i class="fa fa-hand-o-right" aria-hidden="true"></i></a>
+                    <h4 class="text-center">24H/24 & 7J/7</h4>
                 </div>
             </div>
         </section>
@@ -106,7 +85,7 @@ if(isset($_GET['erreur'])){?>
         <!--SECTION2-->
         <section>
             <div class="blockSection2 row align-items-center">
-                <!--<div itemscope itemtype="http://schema.org/ContactPage" class="col-md-6">
+                <div itemscope itemtype="http://schema.org/ContactPage" class="col-md-12">
                     <h2 itemprop="name">Nous contacter</h2>
                     <form class="form-horizontal" action="send.php" method="post">
                         <div class="form-group row">
@@ -147,7 +126,6 @@ if(isset($_GET['erreur'])){?>
                     </form>
 
                 </div>-->
-                <img itemprop="logo" src="img/logo.png" alt="logo Prince-Jorge" title="logo Prince-Jorge" class="logo">
             </div>
         </section>
     </div>     
@@ -157,9 +135,8 @@ if(isset($_GET['erreur'])){?>
     <!--FOOTER-->
     <footer>
         <div itemscope itemtype="http://schema.org/WPFooter" class="container-fluid footer">
-            <div><p itemprop="copyrightHolder" class="copyright">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> Markowski 2017</p></div>
+            <div><p itemprop="copyrightHolder" class="copyright">Copyright <i class="fa fa-copyright" aria-hidden="true"></i>ALBIN VTC 2021</p></div>
             <div><a itemprop="url" class="mentions" href="mentions.php" target="_blank">Mentions légales</a></div>
-            <div><p itemprop="description" class="reseaux">Suivez-nous sur <a href="https://www.facebook.com/princejorgeparis/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a> et <a href="https://www.instagram.com/princejorgeparis/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></p></div>
         </div>
     </footer>
 
