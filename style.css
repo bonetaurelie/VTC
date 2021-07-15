@@ -428,6 +428,11 @@ a.mentions:hover{
 @media all and (min-width: 992px) and (max-width: 1200px){
     
     /*SECTION2*/
+
+    .blockSection2{
+        margin-left: 120px;
+    }
+
     .envoyer{
         position: absolute;
         left: 30px;
@@ -451,6 +456,10 @@ a.mentions:hover{
 
     .copyright{
         padding-left: 80px;
+    }
+
+    .mentions{
+        margin-left: -220px;
     }
 
     /*CONTACT*/
