@@ -40,11 +40,10 @@ header{
 }
 
 .albin{
-    /*width: 50%;*/
-    /*height: 200px;*/
     margin-top: 150px;
     margin-left: 50px;
 }
+
 h1{
     color: #0A1256;
     text-align: center;
@@ -85,18 +84,6 @@ input[type="submit"]{
     left: 20px;
     width: 200px;
 }
-
-/*.logo{
-    margin-left: auto;
-    margin-right: auto;
-    width: 250px;
-    height: 250px;
-}
-
-/*.chaussures{
-    height:300px;
-    margin-top: 60px;
-}*/
 
 /*FOOTER*/
 .footer{
@@ -167,13 +154,55 @@ a.mentions:hover{
 /*TRES PETITS ECRANS*/
 @media all and (max-width:400px){
     /*HEADER*/
-    .markowski{
-        width: 300px;
-        height: 100px;
+
+    .corps{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
         margin-left: auto;
         margin-right: auto;
         margin-top: -5px;
         z-index: -6;
+        width: 100%;        
+    }
+    
+    .albin{
+        width: 60%;
+        height: 100px;
+        margin-top: 150px;
+        /*margin-left: 50px;*/
+    }
+
+    h1{
+        color: #0A1256;
+        text-align: center;   
+    }
+    
+    h3{
+        color: #0A1256;
+        text-align: center;
+    }
+
+    .blockSection2{
+        margin-top: 100px;
+        margin-bottom: 60px;
+        margin-left: 0px;
+        
+    }
+
+    .envoyer{
+        position: absolute;
+        left: 0px;
+        width: 100px;
+    }
+
+    .form-mobil{
+        width: 90%;
     }
 
     /*SECTION1*/
@@ -725,12 +754,6 @@ a.mentions:hover{
 }
 
 @media all and (min-width: 1950px){
-    /*SECTION1*/
-    .redirection{
-        position: absolute;
-        left:180px;
-    }
-
     /*SECTION 2*/
     .envoyer{
         position: absolute;
@@ -743,7 +766,6 @@ a.mentions:hover{
         position: absolute;
         bottom: 0;
         height: 60px;
-        width:100%;
         background-color: #0A1256;
         color: white;
         margin-top: 60px;
@@ -754,24 +776,12 @@ a.mentions:hover{
     }
 
     .copyright{
-        padding-left: 250px;
+        margin-left: 750px;
     }
-
-    .reseaux{
-        padding-right: 250px;
-    }
-
-    /*.copyright {
-        margin-left: 30%;
-    }*/
 
     .mentions{
-        margin-left: -15%;
+        margin-left: -1000px;
     }
-
-    /*.reseaux{
-        margin-left: -5%;
-    }*/
 
     /*CONTACT*/
     .message{
