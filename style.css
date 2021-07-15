@@ -113,9 +113,9 @@ input[type="submit"]{
     justify-content: space-between;
 }
 
-/*.mentions{
+.mentions{
     width: 35%;
-}*/
+}
 
 .mentions,.fa{
     color: #ffffff;
@@ -221,13 +221,13 @@ a.mentions:hover{
     /*FOOTER*/
     /*.copyright, .reseaux {
         text-align: center;
-    }
+    }*/
 
     .mentions {
         text-align: center;
     }
 
-    .copyright{
+    /*.copyright{
         margin-left: 45px;
         margin-bottom: -1px;
     }*/
@@ -315,11 +315,11 @@ a.mentions:hover{
     /*FOOTER*/
     /*.copyright, .reseaux {
         text-align: center;
-    }
+    }*/
 
     .mentions {
         text-align: center;
-    }*/
+    }
 
     .copyright{
         margin-bottom: 0px;
@@ -405,11 +405,11 @@ a.mentions:hover{
 
     /*.copyright, .reseaux {
         text-align: center;
-    }
+    }*/
 
     .mentions {
         text-align: center;
-    }*/
+    }
 
     .copyright{
         margin-bottom: 0px;
@@ -485,9 +485,9 @@ a.mentions:hover{
     }
 
 
-    /*.mentions{
+    .mentions{
         margin-right: -20px;
-    }*/
+    }
 
     /*CONTACT*/
     .message{
@@ -592,11 +592,11 @@ a.mentions:hover{
 
     /*.copyright {
         margin-left: 100px;
-    }
+    }*/
 
     .mentions{
         margin-right: 200px;
-    }*/
+    }
 
     /*CONTACT*/
     .message{
@@ -647,13 +647,13 @@ a.mentions:hover{
 
     /*.copyright {
         margin-left: 30%;
-    }
+    }*/
 
     .mentions{
         margin-left: -15%;
     }
 
-    .reseaux{
+    /*.reseaux{
         margin-left: -5%;
     }*/
 
@@ -705,13 +705,13 @@ a.mentions:hover{
 
     /*.copyright {
         margin-left: 30%;
-    }
+    }*/
 
     .mentions{
         margin-left: -15%;
     }
 
-    .reseaux{
+    /*.reseaux{
         margin-left: -5%;
     }*/
 
@@ -763,13 +763,13 @@ a.mentions:hover{
 
     /*.copyright {
         margin-left: 30%;
-    }
+    }*/
 
     .mentions{
         margin-left: -15%;
     }
 
-    .reseaux{
+    /*.reseaux{
         margin-left: -5%;
     }*/
 

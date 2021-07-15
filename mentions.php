@@ -18,7 +18,7 @@
 
         <!--HEADER-->
         <header itemscope itemtype="http://schema.org/WPHeader" class="row mentionsbis">
-            <img itemprop="description" src="img/logo_small.png" alt="albin vtc" title="albin vtc" class="albin2">
+        <a href="https://albin-vtc.com" class="albin2"><img itemprop="description" src="img/logo_small.png" alt="albin vtc" title="albin vtc"></a>
         </header>
 
         <!-- <div class="row">
@@ -32,9 +32,9 @@
                 ALBIN VTC<br>
                 Numéro de SIRET : 50941104700038<br>
                 Responsable editorial : Monsieur Albin RODRIGUEZ<br>
-                <br>
+                28 rue Marie Vierge 84600 VALREAS<br>
                 Téléphone : 07.61.44.84.61<br>
-                Email : <br>
+                Email : contact@albin-vtc.com<br>
                 Site Web : <a href="https://www.albin-vtc.com">ALBIN VTC</a>
             </p>
             <p itemprop="description"><b><span>Hébergement :</span></b><br>
