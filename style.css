@@ -214,12 +214,13 @@ a.mentions:hover{
     .footer{
         position: absolute;
         bottom: 0;
+        top: 970px;
         width: 100%;
         height: 90px;
         background-color: #0A1256;
         color: white;
         padding-top: 20px;
-        margin-top: 60px;
+        margin-top: 80px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -234,7 +235,8 @@ a.mentions:hover{
     .message{
         margin-top: 40px;
         position: absolute;
-        bottom: 300px;
+        bottom: 50px;
+        left: -10px;
     }
 
     /*MENTIONS LEGALES*/
@@ -307,6 +309,7 @@ a.mentions:hover{
     .footer{
         position: absolute;
         bottom: 0;
+        top: 1000px;
         width: 100%;
         height: 90px;
         background-color: #0A1256;
@@ -327,7 +330,8 @@ a.mentions:hover{
     .message{
         margin-top: 40px;
         position: absolute;
-        bottom: 300px;
+        bottom: 50px;
+        left: 0;
     }
 
     /*MENTIONS LEGALES*/
@@ -403,6 +407,7 @@ a.mentions:hover{
     .footer{
         position: absolute;
         bottom: 0;
+        top: 1000px;
         width: 100%;
         height: 90px;
         background-color: #0A1256;
@@ -419,7 +424,8 @@ a.mentions:hover{
     .message{
         margin-top: 40px;
         position: absolute;
-        bottom: 370px;
+        bottom: 50px;
+        left: 0px;
     }
 
     /*MENTIONS LEGALES*/
@@ -492,6 +498,7 @@ a.mentions:hover{
     .footer{
         position: absolute;
         bottom: 0;
+        top: 900px;
         width: 100%;
         height: 90px;
         background-color: #0A1256;
@@ -512,7 +519,7 @@ a.mentions:hover{
     .message{
         margin-top: 40px;
         position: absolute;
-        bottom: 370px;
+        bottom: 40px;
         left: 100px;
     }
 
@@ -581,6 +588,7 @@ a.mentions:hover{
     .footer{
         position: absolute;
         bottom: 0px;
+        top: 900px;
         width: 100%;
         height: 90px;
         background-color: #0A1256;
@@ -604,8 +612,8 @@ a.mentions:hover{
     .message{
         margin-top: 40px;
         position: absolute;
-        bottom: 100px;
-        left: 50px;
+        bottom: 50px;
+        left: 150px;
     }
 
     /*MENTIONS LEGALES*/
@@ -635,6 +643,7 @@ a.mentions:hover{
     /*FOOTER*/
     .footer{
         position: absolute;
+        top: 500px;
         bottom: 0px;
         width: 100%;
         height: 60px;
@@ -659,7 +668,7 @@ a.mentions:hover{
     .message{
         margin-top: 40px;
         position: absolute;
-        bottom: 100px;
+        bottom: 50px;
         right:20%;
     }
 
@@ -711,7 +720,7 @@ a.mentions:hover{
     .message{
         margin-top: 40px;
         position: absolute;
-        bottom: 100px;
+        bottom: 70px;
         right:15%;
     }
 
@@ -760,7 +769,7 @@ a.mentions:hover{
         margin-top: 40px;
         position: absolute;
         bottom: 100px;
-        left:250px;
+        /*left:250px;*/
     }
 
     /*MENTIONS LEGALES*/
@@ -807,7 +816,7 @@ a.mentions:hover{
         margin-top: 40px;
         position: absolute;
         bottom: 100px;
-        left:350px;
+        /*left:350px;*/
     }
 
     /*MENTIONS LEGALES*/
@@ -852,7 +861,7 @@ a.mentions:hover{
         margin-top: 40px;
         position: absolute;
         bottom: 100px;
-        left:500px;
+        /*left: 1300px;*/
     }
 
     /*MENTIONS LEGALES*/
