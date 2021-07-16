@@ -322,21 +322,55 @@ a.mentions:hover{
 /*SMARTPHONES*/
 @media all and (min-width: 576px) and (max-width: 768px) {
 
-    /*SECTION2*/
-    input[type=submit]
-    {
-        display: block;
-        position: relative;
-        margin-left: 120%;
+    .corps{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 
-    .logo{
+    header{
+        display: flex;
+        flex-direction: column;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 30px;
-        margin-top: 40px;
+        margin-top: -5px;
+        z-index: -6;
+        width: 100%;        
+    }
+    
+    .albin{
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1{
+        color: #0A1256;
+        text-align: center;   
+    }
+    
+    h3{
+        color: #0A1256;
+        text-align: center;
+    }
+
+    /*SECTION2*/
+    .blockSection2{
+        margin-top: 100px;
+        margin-bottom: 60px;
+        margin-left: 0px;
+        
+    }
+
+    .form-mobil{
+        width: 90%;
+    }
+
+    /*SECTION2*/
+    .envoyer{
+        position: absolute;
+        left: 140px;
         width: 200px;
-        height: 200px;
     }
 
     /*FOOTER*/
@@ -348,7 +382,7 @@ a.mentions:hover{
         position: absolute;
         bottom: 0;
         width: 100%;
-        height: 130px;
+        height: 90px;
         background-color: #0A1256;
         color: white;
         padding-top: 20px;
@@ -361,10 +395,6 @@ a.mentions:hover{
 
     .mentions {
         text-align: center;
-    }
-
-    .copyright{
-        margin-bottom: 0px;
     }
 
     /*CONTACT*/
@@ -425,7 +455,7 @@ a.mentions:hover{
     /*SECTION2*/
     .envoyer{
         position: absolute;
-        left: -500px;
+        left: 250px;
         width: 200px;
     }
 
@@ -434,7 +464,7 @@ a.mentions:hover{
         position: absolute;
         bottom: 0px;
         width: 100%;
-        height: 100px;
+        height: 90px;
         background-color: #0A1256;
         color: white;
         margin-top: 60px;
