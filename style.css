@@ -124,8 +124,8 @@ a.mentions:hover{
 /*MENTIONS LEGALES*/
 
 .albin2{
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    left: 20px;
 }
 
 .mentionsbis{
@@ -240,8 +240,8 @@ a.mentions:hover{
     /*MENTIONS LEGALES*/
     .albin2{
         height: 100px;
-        margin-left: auto;
-        margin-right: auto;
+        position: relative;
+        left: 25px;
     }
 }
 
@@ -333,8 +333,8 @@ a.mentions:hover{
     /*MENTIONS LEGALES*/
     .albin2{
         height: 100px;
-        margin-left: auto;
-        margin-right: auto;
+        position: relative;
+        left: 50px;
     }
 }
 
@@ -420,6 +420,13 @@ a.mentions:hover{
         margin-top: 40px;
         position: absolute;
         bottom: 370px;
+    }
+
+    /*MENTIONS LEGALES*/
+    .albin2{
+        height: 100px;
+        position: relative;
+        left: 85px;
     }
 }
 
@@ -508,6 +515,13 @@ a.mentions:hover{
         bottom: 370px;
         left: 100px;
     }
+
+    /*MENTIONS LEGALES*/
+    .albin2{
+        height: 100px;
+        position: relative;
+        left: 135px;
+    }
 }
 
 /*SMARTPHONES ET TABLETTES*/
@@ -594,6 +608,14 @@ a.mentions:hover{
         left: 50px;
     }
 
+    /*MENTIONS LEGALES*/
+    .albin2{
+        width: 200px;
+        height: 100px;
+        position: relative;
+        left: 235px;
+    }
+
 }
 
 @media all and (min-width: 992px) and (max-width: 1200px){
@@ -639,6 +661,12 @@ a.mentions:hover{
         position: absolute;
         bottom: 100px;
         right:20%;
+    }
+
+    /*MENTIONS LEGALES*/
+    .albin2{
+        position: relative;
+        left: -10px;
     }
 }
 
@@ -687,6 +715,12 @@ a.mentions:hover{
         right:15%;
     }
 
+    /*MENTIONS LEGALES*/
+    .albin2{
+        position: relative;
+        left: 30px;
+    }
+
 }
 
 @media all and (min-width: 1440px) and (max-width: 1700px){
@@ -727,6 +761,12 @@ a.mentions:hover{
         position: absolute;
         bottom: 100px;
         left:250px;
+    }
+
+    /*MENTIONS LEGALES*/
+    .albin2{
+        position: relative;
+        left: 20px;
     }
 }
 
@@ -769,6 +809,12 @@ a.mentions:hover{
         bottom: 100px;
         left:350px;
     }
+
+    /*MENTIONS LEGALES*/
+    .albin2{
+        position: relative;
+        left: 20px;
+    }
 }
 
 @media all and (min-width: 1950px){
@@ -807,6 +853,12 @@ a.mentions:hover{
         position: absolute;
         bottom: 100px;
         left:500px;
+    }
+
+    /*MENTIONS LEGALES*/
+    .albin2{
+        position: relative;
+        left: 20px;
     }
 }
 
