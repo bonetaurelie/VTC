@@ -152,7 +152,7 @@ a.mentions:hover{
 }
 
 /*TRES PETITS ECRANS*/
-@media all and (max-width:400px){
+@media all and (max-width:325px){
     /*HEADER*/
 
     .corps{
@@ -172,9 +172,9 @@ a.mentions:hover{
     }
     
     .albin{
-        width: 60%;
+        width: 200px;
         height: 100px;
-        margin-top: 150px;
+        margin-top: 80px;
         /*margin-left: 50px;*/
     }
 
@@ -197,31 +197,13 @@ a.mentions:hover{
 
     .envoyer{
         position: absolute;
-        left: 0px;
-        width: 100px;
+        left: 40px;
+        width: 200px;
     }
 
     .form-mobil{
         width: 90%;
     }
-
-    /*SECTION2*/
-    input[type=submit]
-    {
-        display: block;
-        position: relative;
-        margin-left: 85%;
-    }
-
-    .logo{
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 30px;
-        margin-top: 40px;
-        width: 150px;
-        height: 150px;
-    }
-
 
     /*FOOTER*/
 
@@ -233,7 +215,7 @@ a.mentions:hover{
         position: absolute;
         bottom: 0;
         width: 100%;
-        height: 130px;
+        height: 90px;
         background-color: #0A1256;
         color: white;
         padding-top: 20px;
@@ -256,7 +238,93 @@ a.mentions:hover{
     }
 }
 
-@media all and (min-width: 400px) and (max-width: 576px){
+@media all and (min-width: 326px) and (max-width: 425px){
+    /*HEADER*/
+
+    .corps{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -5px;
+        z-index: -6;
+        width: 100%;        
+    }
+    
+    .albin{
+        width: 200px;
+        height: 100px;
+        margin-top: 80px;
+        /*margin-left: 50px;*/
+    }
+
+    h1{
+        color: #0A1256;
+        text-align: center;   
+    }
+    
+    h3{
+        color: #0A1256;
+        text-align: center;
+    }
+
+    .blockSection2{
+        margin-top: 100px;
+        margin-bottom: 60px;
+        margin-left: 0px;
+        
+    }
+
+    .envoyer{
+        position: absolute;
+        left: 40px;
+        width: 200px;
+    }
+
+    .form-mobil{
+        width: 90%;
+    }
+
+    /*FOOTER*/
+
+    .mentions {
+        text-align: center;
+    }
+
+    .footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 90px;
+        background-color: #0A1256;
+        color: white;
+        padding-top: 20px;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .copyright{
+        margin-bottom: 0px;
+    }
+
+    /*CONTACT*/
+    .message{
+        margin-top: 40px;
+        position: absolute;
+        bottom: 300px;
+    }
+}
+
+@media all and (min-width: 426px) and (max-width: 576px){
     .corps{
         display: flex;
         flex-direction: column;
@@ -304,7 +372,6 @@ a.mentions:hover{
 
     .envoyer{
         position: absolute;
-        left: 200px;
         width: 300px;
     }
 
@@ -730,22 +797,12 @@ a.mentions:hover{
 }
 
 /*format landscape*/
-@media (min-width:576px ) and (orientation: landscape){
-    .redirection{
-        width:200px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 40px;
-    }
-}
-
 @media (max-width:576px ) and (orientation: landscape){
 
     /*SECTION 2*/
-    .envoyer{
+    /*.envoyer{
         position: absolute;
         left: 100px;
         width: 200px;
-    }
+    }*/
 }
