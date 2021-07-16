@@ -236,6 +236,13 @@ a.mentions:hover{
         position: absolute;
         bottom: 300px;
     }
+
+    /*MENTIONS LEGALES*/
+    .albin2{
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media all and (min-width: 326px) and (max-width: 425px){
@@ -321,6 +328,13 @@ a.mentions:hover{
         margin-top: 40px;
         position: absolute;
         bottom: 300px;
+    }
+
+    /*MENTIONS LEGALES*/
+    .albin2{
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -805,4 +819,8 @@ a.mentions:hover{
         left: 100px;
         width: 200px;
     }*/
+}
+
+@media all and (max-width:425px){
+    
 }

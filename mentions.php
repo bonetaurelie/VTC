@@ -18,7 +18,7 @@
 
         <!--HEADER-->
         <header itemscope itemtype="http://schema.org/WPHeader" class="row mentionsbis">
-        <a href="https://albin-vtc.com" class="albin2"><img itemprop="description" src="img/logo_small.png" alt="albin vtc" title="albin vtc"></a>
+        <a href="https://albin-vtc.com"><img itemprop="description" src="img/logo_small.png" alt="albin vtc" title="albin vtc" class="albin2"></a>
         </header>
 
         <!-- <div class="row">
