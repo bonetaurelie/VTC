@@ -54,7 +54,7 @@ if(isset($_GET['erreur'])){?>
     <meta charset="utf-8">
     <title>ALBIN VTC</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="vtc Valreas, Valréas, vtc Bollène, vtc Vaison, vtc Montélimar, vtc Nyons, vtc Vaucluse, vtc Drôme">
+    <meta name="keywords" content="Albin vtc, vtc Valreas, Valréas, vtc Bollène, vtc Vaison, vtc Montélimar, vtc Nyons, vtc Vaucluse, vtc Drôme">
     <meta name="description" content="ALBIN VTC se situe dans le vaucluse à Valreas et propose ses services aussi dans la Drôme">
 
     <!-- Bootstrap CSS -->

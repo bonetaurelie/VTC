@@ -3,6 +3,7 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+    <title>ALBIN VTC - Mentions légales</title> 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords" content="vtc Valreas, Valréas, vtc Bollène, vtc Vaison, vtc Montélimar, vtc Nyons, vtc Vaucluse, vtc Drôme">
     <meta name="description" content="ALBIN VTC se situe dans le vaucluse à Valreas et propose ses services aussi dans la Drôme">
@@ -20,10 +21,6 @@
         <header itemscope itemtype="http://schema.org/WPHeader" class="row mentionsbis">
         <a href="https://albin-vtc.com"><img itemprop="description" src="img/logo_small.png" alt="albin vtc" title="albin vtc" class="albin2"></a>
         </header>
-
-        <!-- <div class="row">
-            <img itemprop="description" src="img/rea.png" alt="réalisateur de chaussures de qualité" title="réalisateur de chaussures de qualité" class="rea">
-        </div> -->
 
         <!--MENTIONS LEGALES-->
         <h1 itemprop="name">Mentions légales</h1>        
