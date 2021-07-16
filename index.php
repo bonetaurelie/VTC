@@ -49,31 +49,31 @@ if(isset($_GET['erreur'])){?>
 
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <title>ALBIN VTC</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="Albin vtc, vtc Valreas, Valréas, vtc Bollène, vtc Vaison, vtc Montélimar, vtc Nyons, vtc Vaucluse, vtc Drôme">
-    <meta name="description" content="ALBIN VTC se situe dans le vaucluse à Valreas et propose ses services aussi dans la Drôme">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <title>ALBIN VTC</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="keywords" content="Albin vtc, vtc Valreas, Valréas, vtc Bollène, vtc Vaison, vtc Montélimar, vtc Nyons, vtc Vaucluse, vtc Drôme">
+        <meta name="description" content="ALBIN VTC se situe dans le vaucluse à Valreas et propose ses services aussi dans la Drôme">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-</head>
-<body itemscope itemtype="http://schema.org/WebPage">
-    <div class="container corps">
-        
-        <!--HEADER-->
-        <header itemscope itemtype="http://schema.org/WPHeader" class="row">
-            <img itemprop="description" src="img/logo_small.png" alt="Albin VTC" title="Albin VTC" class="albin">
-            <h1 itemprop="name">24H/24 & 7J/7</h1>
-            <h3>Tel: 07.61.44.84.61</h3>
-        </header>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    </head>
+    <body itemscope itemtype="http://schema.org/WebPage">
+        <div class="container corps">
+            
+            <!--HEADER-->
+            <header itemscope itemtype="http://schema.org/WPHeader" class="row">
+                <img itemprop="description" src="img/logo_small.png" alt="Albin VTC" title="Albin VTC" class="albin">
+                <h1 itemprop="name">24H/24 & 7J/7</h1>
+                <h3>Tel: 07.61.44.84.61</h3>
+            </header>
 
-        <!--SECTION2-->
-        
+            <!--SECTION2-->
+            
             <section class="blockSection2 row align-items-center">
                 <div itemscope itemtype="http://schema.org/ContactPage" class="form-mobil">
                     <h2 itemprop="name">Nous contacter</h2>
@@ -116,29 +116,25 @@ if(isset($_GET['erreur'])){?>
                     </form>
 
                 </div>
-        </section>
-    </div>     
+            </section>
+        </div>     
 
 
 
-    <!--FOOTER-->
-    <footer>
-        <div itemscope itemtype="http://schema.org/WPFooter" class="container-fluid footer">
-            <div><p itemprop="copyrightHolder" class="copyright">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> ALBIN VTC 2021</p></div>
-            <div><a itemprop="url" class="mentions" href="mentions.php" target="_blank">Mentions légales</a></div>
-        </div>
-    </footer>
+        <!--FOOTER-->
+        <footer>
+            <div itemscope itemtype="http://schema.org/WPFooter" class="container-fluid footer">
+                <div><p itemprop="copyrightHolder" class="copyright">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> ALBIN VTC 2021</p></div>
+                <div><a itemprop="url" class="mentions" href="mentions.php" target="_blank">Mentions légales</a></div>
+            </div>
+        </footer>
 
+    </body>
 
-
-
-
-
-
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-</body>
-</html>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    
+    </html>
