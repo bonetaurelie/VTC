@@ -50,7 +50,7 @@ if (isset($_POST['envoyer'])) {
     } /* Si aucun problème et aucun cookie créé, on construit le message et on envoie l'e-mail */
     elseif (!isset($_COOKIE['sent'])) {
         /* Destinataire (votre adresse e-mail) */
-        $to = 'contact@albin-vtc.com';
+        $to = 'albinrvtc@gmail.com';
 
         /* Construction du message */
 
