@@ -152,7 +152,7 @@ a.mentions:hover{
 }
 
 /*TRES PETITS ECRANS*/
-@media all and (max-width:425px){
+@media all and (max-width:768px){
     /*HEADER*/
 
     .corps{
@@ -250,7 +250,7 @@ a.mentions:hover{
 }
 
 /*SMARTPHONES ET TABLETTES*/
-@media all and (min-width:768px) and (max-width:992px) {
+@media all and (min-width:769px) and (max-width:992px) {
     .corps{
         display: flex;
         flex-direction: column;
