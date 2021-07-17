@@ -152,7 +152,7 @@ a.mentions:hover{
 }
 
 /*TRES PETITS ECRANS*/
-@media all and (max-width:768px){
+@media all and (max-width:425px){
     /*HEADER*/
 
     .corps{
@@ -175,7 +175,8 @@ a.mentions:hover{
         width: 200px;
         height: 100px;
         margin-top: 80px;
-        /*margin-left: 50px;*/
+        margin-left: auto;
+        margin-right: auto;
     }
 
     h1{
